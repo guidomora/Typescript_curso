@@ -1,0 +1,26 @@
+1) En el archivo de config le sacamos el comentario a  la opcion sourceMap.
+Esto hace que cuando queramos ver algo en la consola nos marque la ubicacion exacta
+en el archivo TS que estamos trabajando y no en la de JS.
+Crea un tercer archivo JS que es un map
+
+2) Remover los comentarios de los archivos JS:
+Desactivamos el comentario de la opcion removeComments
+menos ruido en el codigo y menos kb de carga
+
+
+3) Incluir y excluir carpetas y/o archivos:
+Creamos una carpeta llamada node_modules y dentro creamos los archivos que no
+queremos que los transpile.
+
+Otra opcion es al final del archivo config antes de que cierre el corchete
+escribir "exclude": ["la direccion del archivo que no querramos o la carpeta"]
+
+Si no esta compilando archivos que nosotros querramos hay que hacer lo mismo
+que arriba pero escribiendo "include" aunque seria lo UNICO que quisieramos uncluir
+
+4) outFile - archivo de salida:
+
+en outFile le agregamos alguna ruta de un archivo donde querramos que se transpilen
+todos los archivos de TS a JS 
+
+se pueden borrar todos los archivos de js y dejamos los de ts
