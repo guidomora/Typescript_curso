@@ -16,7 +16,7 @@ Otra opcion es al final del archivo config antes de que cierre el corchete
 escribir "exclude": ["la direccion del archivo que no querramos o la carpeta"]
 
 Si no esta compilando archivos que nosotros querramos hay que hacer lo mismo
-que arriba pero escribiendo "include" aunque seria lo UNICO que quisieramos uncluir
+que arriba pero escribiendo "include":["archivo] aunque seria lo UNICO que quisieramos uncluir
 
 4) outFile - archivo de salida:
 
