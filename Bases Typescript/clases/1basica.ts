@@ -13,8 +13,7 @@
         }
     }
 
-    const antman:Avenger = new Avenger("Antman", "Capi",)
-    console.log(antman);
+    const antman:Avenger = new Avenger("Antman", "Capi")
+    //console.log(antman);
     
-    // IncompletoooooOOOOoooooOoOOOOOOOOoooooOOooOOOo
 })()
