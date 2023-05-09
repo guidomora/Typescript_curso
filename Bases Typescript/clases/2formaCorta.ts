@@ -16,4 +16,4 @@
     const antman: Avenger = new Avenger("Antman!", "Capi", "Scott")
     console.log(antman);
 
-})()
+})
